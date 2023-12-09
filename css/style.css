@@ -1,0 +1,62 @@
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 0;
+}
+
+.menu > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper > nav {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 5px 10px 5px; */
+}
+
+html body {
+  font-size: 12px;
+}
+
+nav {
+  background-color: #176b87;
+  color: #fff;
+  width: 100%;
+}
+
+body nav {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* masih ngawur */
+}
+
+.menu {
+  width: 30%;
+  margin: 30px 0;
+}
+
+.logo i {
+  font-size: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
